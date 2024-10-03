@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.hero-img{
+    background-image: url(images/bg.jpg);
+    width: 100;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-wrapper{
+    color: black;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    transform: translate((-50%, -50%));
+}
+.hero-wrapper h1{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-weight: bold;
+}
+.hero-wrapper p{
+    color: darkblue;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-wrapper .form-code input {
+    border-radius: 30px;
+    height: 40px;
+    width: 20%;
+    outline: auto;
+    border: 3px;
+}
+
+.hero-wrapper .form-code input::placeholder{
+    padding-left: 20px;
+}
+
+.hero-wrapper .form-code button{
+    width :200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    outline: auto;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.hero-wrapper .form-code button:hover{
+    background-color: transparent;
+    border : 5 px solid black;
+}
+.hero-wrapper2{
+    color: black;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    transform: translate((-50%, -50%));
+}
+
+.hero-wrapper2 h1{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+
+.grid {
+    display: grid;
+    padding: 100px;
+}
+
+.grid .item{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+.hero-img2{
+    background-image: url(images/Gemini_Generated_Image_za5t55za5t55za5t.jpg);
+    width: 100;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+    opacity: 100%;
+}
+
+
+
